@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:title="Share"
+        android:icon="@drawable/ic_share"
+        android:id="@+id/item1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item2"
+        android:title="Rate Us"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="never"/>
+    <item
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/ic_towork"
+        android:title="What is Pay Reminder"
+        android:id="@+id/item3"/>
+    <item
+        android:id="@+id/item4"
+        android:title="Terms and Conditions"
+        android:icon="@drawable/ic_f_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item5"
+        android:icon="@drawable/pay"
+        android:title=" Exit "
+        app:showAsAction="never"/>
+</menu>

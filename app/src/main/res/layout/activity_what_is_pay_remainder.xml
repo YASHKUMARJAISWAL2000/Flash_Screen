@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".what_is_pay_remainder">
+
+    <EditText
+        android:id="@+id/insertionedittext"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/freq_ask_quest"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="@drawable/freq_ask_quest"
+        android:hint="Ask Your Question"
+        android:textSize="21dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#42A5F5" />
+
+    <TextView
+        android:id="@+id/question1textview"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/crircel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#42A5F5" />
+
+    <TextView
+        android:id="@+id/question2textview"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/crircel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#42A5F5" />
+
+    <TextView
+        android:id="@+id/question3textview"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/crircel"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:textSize="15dp" />
+    w<TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#42A5F5" />
+
+    <Button
+        android:id="@+id/query_button"
+        android:layout_width="107dp"
+        android:layout_height="69dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/freq_ask_quest"
+        android:text="Submit" />
+</LinearLayout>

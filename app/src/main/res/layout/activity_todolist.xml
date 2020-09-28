@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:textColor="#000000"
+        android:text="ADD TASK"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circle"
+        android:drawableStart="@drawable/circle" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="401dp"
+        android:layout_height="604dp" />
+
+</LinearLayout>
